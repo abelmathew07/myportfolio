@@ -145,6 +145,56 @@ body {
   }
 }
 
+.sec3 {
+  padding-top: 10px !important;
+  padding-bottom: 5px !important;
+  margin-top: 20px; 
+  height: auto; /* Remove any height restrictions */
+  overflow: visible; /* Ensure no scroll appears */
+}
+
+.sec3 img {
+  -webkit-box-shadow: none; /* Remove any box shadow */
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  height: auto;    /* Maintain aspect ratio */
+  background: none; /* Remove any background */
+}
+
+.sec3 .about_text {
+  background: none;
+  padding: 5px;
+}
+
+.sec3 .about_text p {
+  color: white;
+  text-align: justify;
+}
+
+.about_heading {
+  font-family: Dancing Script;
+  margin-top: 2px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+@media (max-width: 768px) {
+  .sec3 .row {
+    flex-direction: column; /* Stack the columns vertically */
+    align-items: center;    /* Center-align content */
+  }
+
+  .sec3 img {
+    margin-bottom: 20px; /* Add spacing below the image */
+    background: none; /* Ensure no background on mobile */
+    box-shadow: none;  /* Remove any shadow on mobile */
+  }
+
+  .sec3 .about_text {
+    text-align: center; /* Center-align text on smaller screens */
+  }
+}
+
 
 
 
@@ -204,50 +254,6 @@ body {
   background-color: #850dd5;
 }
 
-.sec3 {
-  padding-top: 10px !important;
-  padding-bottom: 5px !important;
-  margin-top: 20px; 
-}
-
-.sec3 img {
-  -webkit-box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 12px 8px 0px 0px #850dd5;
-  max-width: 100%; /* Ensure the image does not exceed its container */
-  height: auto;    /* Maintain aspect ratio */
-}
-
-.sec3 .about_text {
-  background: none;
-  padding: 5px;
-}
-
-.sec3 .about_text p {
-  color: white;
-  text-align: justify;
-}
-
-.about_heading {
-  font-family: Dancing Script;
-  margin-top: 2px;
-  color: #fff;
-  font-weight: bolder;
-  font-size: xx-large;
-}
-
-@media (max-width: 768px) {
-  .sec3 .row {
-    flex-direction: column; /* Stack the columns vertically */
-    align-items: center;    /* Center-align content */
-  }
-
-  .sec3 img {
-    margin-bottom: 20px; /* Add spacing below the image */
-  }
-
-  .sec3 .about_text {
-    text-align: center; /* Center-align text on smaller screens */
-  }
-}
 
 
 
