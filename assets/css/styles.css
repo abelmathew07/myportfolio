@@ -338,6 +338,10 @@ body {
   padding-top: 5px;
   margin: 0;
 }
+#tools .tool-img{
+  height: auto;
+  overflow: visible;
+}
 
 
 
