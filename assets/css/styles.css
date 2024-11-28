@@ -177,10 +177,7 @@ body {
   font-weight: bolder;
   font-size: xx-large;
 }
-.sec3 .skill-img{
-  height: auto; /* Remove any height restrictions */
-  overflow: visible;
-}
+
 
 @media (max-width: 768px) {
   .sec3 .row {
@@ -199,7 +196,10 @@ body {
   }
 }
 
-
+.sec4 .skill-img{
+  height: auto; 
+  overflow: visible;
+}
 
 
 .sec4_heading{
