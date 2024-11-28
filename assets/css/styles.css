@@ -146,43 +146,7 @@ body {
 }
 
 
-.sec3 {
-  padding-top: 10px !important;
-  padding-bottom: 5px !important;
-  margin-top: 20px; 
-  
-   
-}
-.sec3 img{
-  -webkit-box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 12px 8px 0px 0px #850dd5;
-}
-@media (min-width: 1400px) {
-  .sec3 {
-    margin-top: 50px; /* Increase margin to prevent overlap */
 
-  }
-
-}
-
-.sec3 .about_text{
-  background: none;
-  padding: 5px;
-}
-.sec3 .about_text p{
-color: white;
-text-align: justify;
-
-}
-.about_heading
-{
-  font-family: Dancing Script;
-  margin-top: 2px;
-  color: #fff;
-  height: 100px;
-  font-weight:bolder;
-  font-size: xx-large;
-  
-}
 
 .sec4_heading{
   font-family: Dancing Script;
@@ -240,6 +204,50 @@ text-align: justify;
   background-color: #850dd5;
 }
 
+.sec3 {
+  padding-top: 10px !important;
+  padding-bottom: 5px !important;
+  margin-top: 20px; 
+}
+
+.sec3 img {
+  -webkit-box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 12px 8px 0px 0px #850dd5;
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  height: auto;    /* Maintain aspect ratio */
+}
+
+.sec3 .about_text {
+  background: none;
+  padding: 5px;
+}
+
+.sec3 .about_text p {
+  color: white;
+  text-align: justify;
+}
+
+.about_heading {
+  font-family: Dancing Script;
+  margin-top: 2px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+@media (max-width: 768px) {
+  .sec3 .row {
+    flex-direction: column; /* Stack the columns vertically */
+    align-items: center;    /* Center-align content */
+  }
+
+  .sec3 img {
+    margin-bottom: 20px; /* Add spacing below the image */
+  }
+
+  .sec3 .about_text {
+    text-align: center; /* Center-align text on smaller screens */
+  }
+}
 
 
 
