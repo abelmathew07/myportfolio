@@ -21,9 +21,9 @@ body {
   
 }
 .body_container{
-  background-image: url(/assets/images/grid.png);
-  background-repeat: repeat;
-  overflow-x: hidden;
+  background-image: url(/assets/images/grid.png)!important;
+  background-repeat: repeat !important;
+  overflow-x: hidden !important;
   
 }
 .hidden-until-loaded {
