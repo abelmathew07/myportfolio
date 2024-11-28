@@ -116,14 +116,35 @@ body {
 .sec2 {
   padding-top: 10px !important;
   padding-bottom: 5px !important;
- 
-  
 }
-.sec2 .container .card{
+
+.sec2 .container .card {
   border: 1px solid violet;
   background: #151515 !important;
   color: white;
 }
+
+.interest_heading {
+  font-family: Dancing Script;
+  margin-top: 2px;
+  color: #fff;
+  height: auto;
+  font-weight: bolder;
+  font-size: xx-large; 
+}
+
+@media (max-width: 768px) {
+  .sec2 .card {
+    width: 100%; /* Full-width cards on smaller screens */
+    margin-bottom: 20px; /* Add spacing between stacked cards */
+  }
+  
+  .interest_heading {
+    font-size: larger; /* Adjust font size for smaller screens */
+    margin-bottom: 20px; /* Add spacing below the heading */
+  }
+}
+
 
 .sec3 {
   padding-top: 10px !important;
@@ -162,20 +183,7 @@ text-align: justify;
   font-size: xx-large;
   
 }
-.interest_heading
-{
-  font-family: Dancing Script;
-  margin-top: 2px;
-  color: #fff;
-  height: 100px;
-  font-weight:bolder;
-  font-size: xx-large; 
-  
-}
-.interest_heading .card_title{
-  font-weight: bolder;
-  font-size: larger;
-}
+
 .sec4_heading{
   font-family: Dancing Script;
 }
