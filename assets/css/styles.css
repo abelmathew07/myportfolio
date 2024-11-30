@@ -155,7 +155,7 @@ body {
 
 .sec3 img {
   -webkit-box-shadow: none; /* Remove any box shadow */
-  max-width: 100%; /* Ensure the image does not exceed its container */
+  max-width: 75%; /* Ensure the image does not exceed its container */
   height: auto;    /* Maintain aspect ratio */
   background: none; /* Remove any background */
 }
