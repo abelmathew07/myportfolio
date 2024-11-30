@@ -207,6 +207,81 @@ body {
 }
 
 
+/*project */
+
+.sec5 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sec5 .projects_heading {
+  font-family: Dancing Script;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.sec5 .card {
+  background: #151515;
+  color: white;
+  border: 1px solid violet;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  overflow: hidden; /* Prevent scrolling on hover */
+}
+
+.sec5 .card:hover {
+  transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+.sec5 .content-box {
+  text-align: left;
+}
+
+.sec5 .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sec5 .card-content {
+  font-size: 0.9rem;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.sec5 .see-more {
+  color: violet;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .sec5 .card {
+    margin: 0 auto;
+    max-width: 90%; /* Adjust width for smaller screens */
+  }
+
+  .sec5 .projects_heading {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .sec5 .card-title {
+    font-size: 1.2rem;
+  }
+
+  .sec5 .card-content {
+    font-size: 0.8rem;
+  }
+}
+
+
+
+
+
 
 
 
