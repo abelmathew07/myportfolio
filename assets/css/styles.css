@@ -145,56 +145,84 @@ body {
   }
 }
 
+
+
+/*About*/
+
 .sec3 {
-  padding-top: 10px !important;
-  padding-bottom: 5px !important;
-  margin-top: 20px; 
-  height: auto; /* Remove any height restrictions */
-  overflow: visible; /* Ensure no scroll appears */
-}
-
-.sec3 img {
-  -webkit-box-shadow: none; /* Remove any box shadow */
-  max-width: 75%; /* Ensure the image does not exceed its container */
-  height: auto;    /* Maintain aspect ratio */
-  background: none; /* Remove any background */
-}
-
-.sec3 .about_text {
-  background: none;
-  padding: 5px;
-}
-
-.sec3 .about_text p {
-  color: white;
-  text-align: justify;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
 }
 
 .about_heading {
-  font-family: Dancing Script;
-  margin-top: 2px;
+  font-family: 'Poppins', sans-serif; /* Modern font */
+  margin-bottom: 20px;
   color: #fff;
-  font-weight: bolder;
-  font-size: xx-large;
+  font-weight: bold;
+  font-size: 2.5rem; /* Large heading size */
 }
 
+.sec3 img {
+  max-width: 60%; /* Reduce the image width on large screens */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Add subtle rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add shadow for better visual appeal */
+}
+
+.sec3 .about_text {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background for better readability */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.sec3 .about_text p {
+  font-family: 'Roboto', sans-serif; /* Readable font for text */
+  font-size: 1.2rem; /* Larger text for better readability */
+  font-weight: 400;
+  color: #f0f0f0; /* Light gray color for contrast */
+  text-align: justify;
+  line-height: 1.6; /* Improve line spacing */
+}
 
 @media (max-width: 768px) {
   .sec3 .row {
     flex-direction: column; /* Stack the columns vertically */
-    align-items: center;    /* Center-align content */
+    align-items: center; /* Center content */
+  }
+
+  .about_heading {
+    font-size: 2rem; /* Slightly smaller heading on small screens */
   }
 
   .sec3 img {
-    margin-bottom: 20px; /* Add spacing below the image */
-    background: none; /* Ensure no background on mobile */
-    box-shadow: none;  /* Remove any shadow on mobile */
+    max-width: 90%; /* Make image smaller for small screens */
+    margin-bottom: 20px;
   }
 
   .sec3 .about_text {
-    text-align: center; /* Center-align text on smaller screens */
+    text-align: center; /* Center-align text */
+    font-size: 1rem; /* Decrease font size for small screens */
+    padding: 10px; /* Adjust padding */
   }
 }
+
+@media (max-width: 576px) {
+  .about_heading {
+    font-size: 1.8rem; /* Smaller font for very small screens */
+  }
+
+  .sec3 img {
+    max-width: 100%; /* Take full width on extra small screens */
+  }
+
+  .sec3 .about_text p {
+    font-size: 0.9rem; /* Smaller text size for readability */
+  }
+}
+
+
+/*Skill*/
 
 .sec4 .skill-img{
   height: auto !important; 
