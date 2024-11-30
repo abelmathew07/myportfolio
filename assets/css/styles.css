@@ -205,9 +205,12 @@ body {
 .sec4_heading{
   font-family: Dancing Script;
 }
+.sec4 .skills-container{
+  height: auto !important; 
+  overflow: visible !important;
+}
 
-
-/*project */
+/*Tools */
 
 .sec5 {
   padding-top: 20px;
@@ -220,6 +223,10 @@ body {
   font-size: 2rem;
   margin-bottom: 30px;
   font-weight: bold;
+}
+.sec5 .tool-container{
+  height: auto !important; 
+  overflow: visible !important;
 }
 
 .sec5 .project-card {
